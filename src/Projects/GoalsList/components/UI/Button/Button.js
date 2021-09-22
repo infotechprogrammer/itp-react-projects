@@ -1,6 +1,6 @@
 import React from "react";
 
-import styles from './Button.module.css'
+import styles from './Button.css'
 
 // const Button = styled.button`
 //   width: 100%;
@@ -30,7 +30,7 @@ import styles from './Button.module.css'
 
 const Button = props => {
   return (
-    <button type={props.type} className={styles.button} onClick={props.onClick}>
+    <button type={props.type} className="button" onClick={props.onClick}>
       {props.children}
     </button>
   );
